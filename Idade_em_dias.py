@@ -1,4 +1,3 @@
-nome = input('Qual seu nome:')
-idade = int (input('Qual a sua idade :'))
-dias = idade * 365
-print ('Olá {} ,Você ja viveu aproximadamente {} Dias'.format(nome,dias))
+nome = input('Digite seu nome  : ')
+idade = int (input( ' sua idade : '))
+print (f"Ola {nome} você viveu {idade * 365} Dias ")

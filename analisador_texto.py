@@ -1,0 +1,6 @@
+frase = input("Digite uma frase: ")
+quantidade_caracteres = len(frase)
+tipo_dado = type(frase)
+print(f"A frase digitada foi: '{frase}'")
+print(f"Quantidade de caracteres: {quantidade_caracteres}")
+print(f'Tipo do dado: {tipo_dado}'')

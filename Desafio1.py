@@ -3,7 +3,7 @@ print("Seja bem vindo, insira seu cartão para passar pela catraca, empurre a ca
 estado_catraca = "fechada"
 
 while True:
-    acao = input("Digite 'inserir', 'empurrar' ou 'desistir': ").lower()
+    acao = input("Digite inserir, empurrar' ou 'desistir': ").lower()
 
     if acao == "inserir":
         if estado_catraca == "fechada":
